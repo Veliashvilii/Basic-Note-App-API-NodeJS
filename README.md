@@ -193,7 +193,7 @@ project-root/
           "token": "your_jwt_token_here",
           "user": {
             "id": "user_id_here",
-            "full_name": "John Doe",
+            "full_name": "Your Name",
             "email": "your_email@example.com"
           }
         }
