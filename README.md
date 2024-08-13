@@ -140,10 +140,11 @@ project-root/
    npm install
    ```
 
-3. Create a `.env` file and configure your environment variables:\n
-   PORT: The port number on which the server will run.\n
-   MONGO_URI: The connection string for your MongoDB database.\n
-   SECRET_TOKEN: A secret key used for signing tokens (e.g., JWT).\n
+3. Create a `.env` file and configure your environment variables:
+   ```plaintext
+   PORT: The port number on which the server will run.
+   MONGO_URI: The connection string for your MongoDB database.
+   SECRET_TOKEN: A secret key used for signing tokens (e.g., JWT).
 
 
 5. Start the server:
