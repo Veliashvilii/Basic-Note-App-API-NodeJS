@@ -164,4 +164,15 @@ project-root/
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the ISC License. See the [ISC License](https://opensource.org/licenses/ISC) for more details.
+
+The ISC License is a permissive open-source license that is functionally similar to the MIT License. It allows for software to be freely used, modified, and distributed, provided that the license and copyright notice are included in all copies or substantial portions of the software.
+
+### Key Points of ISC License
+
+- **Permissions:** Allows for copying, modifying, merging, publishing, distributing, sublicensing, and selling the software.
+- **Conditions:** Must include the original copyright notice and license text in all copies or substantial portions of the software.
+- **Limitation:** The software is provided "as is," without warranty of any kind.
+
+For the full text of the ISC License, please refer to [this link](https://opensource.org/licenses/ISC).
+
