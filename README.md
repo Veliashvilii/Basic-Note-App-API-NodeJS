@@ -131,7 +131,7 @@ project-root/
 
    ```bash
    git clone <repository-url>
-   cd first-api-test
+   cd basic-note-app-api-nodejs
    ```
 
 2. Install dependencies:
@@ -140,9 +140,13 @@ project-root/
    npm install
    ```
 
-3. Create a `.env` file and configure your environment variables.
+3. Create a `.env` file and configure your environment variables:
+   PORT: The port number on which the server will run.
+   MONGO_URI: The connection string for your MongoDB database.
+   SECRET_TOKEN: A secret key used for signing tokens (e.g., JWT).
 
-4. Start the server:
+
+5. Start the server:
 
    ```bash
    npm start
