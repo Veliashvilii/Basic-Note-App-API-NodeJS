@@ -173,6 +173,3 @@ The ISC License is a permissive open-source license that is functionally similar
 - **Permissions:** Allows for copying, modifying, merging, publishing, distributing, sublicensing, and selling the software.
 - **Conditions:** Must include the original copyright notice and license text in all copies or substantial portions of the software.
 - **Limitation:** The software is provided "as is," without warranty of any kind.
-
-For the full text of the ISC License, please refer to [this link](https://opensource.org/licenses/ISC).
-
