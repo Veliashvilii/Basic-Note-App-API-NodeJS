@@ -130,7 +130,7 @@ project-root/
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone <url>(https://github.com/Veliashvilii/Basic-Note-App-API-NodeJS.git)
    cd basic-note-app-api-nodejs
    ```
 
