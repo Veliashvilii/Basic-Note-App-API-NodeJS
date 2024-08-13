@@ -124,7 +124,6 @@ project-root/
 ├── package-lock.json
 └── package.json
 ```
-
 ## Installation
 
 1. Clone the repository:
@@ -145,13 +144,64 @@ project-root/
    PORT: The port number on which the server will run.
    MONGO_URI: The connection string for your MongoDB database.
    SECRET_TOKEN: A secret key used for signing tokens (e.g., JWT).
+   ```
 
-
-5. Start the server:
+4. Start the server:
 
    ```bash
    npm start
    ```
+
+5. **Testing with Postman**
+
+   You can use [Postman](https://www.postman.com/) to test the API endpoints. Here's how to set up and send requests:
+
+   1. **Download and Install Postman:**
+
+      - Visit the [Postman website](https://www.postman.com/downloads/) to download and install the Postman app on your computer.
+
+   2. **Import API Endpoints:**
+
+      - You can manually create requests for each endpoint or import a Postman collection if available.
+
+   3. **Configure Environment Variables:**
+
+      - Set up environment variables in Postman for easy management of values like `token`, `baseURL`, and other dynamic parts of your requests.
+
+   4. **Send Requests:**
+
+      - Open Postman and create a new request for the desired endpoint. 
+
+      - **Example:** To test the login endpoint, create a new `POST` request to `http://localhost:5000/auth/login` and add a JSON body:
+
+        ```json
+        {
+          "email": "your_email@example.com",
+          "password": "your_password"
+        }
+        ```
+
+      - Add `Authorization` headers where needed for authenticated routes, using the format `Bearer <token>`.
+
+   5. **View Responses:**
+
+      - Send the request and check the response for data or error messages. You should see a response similar to:
+
+        ```json
+        {
+          "message": "User logged in successfully",
+          "token": "your_jwt_token_here",
+          "user": {
+            "id": "user_id_here",
+            "full_name": "John Doe",
+            "email": "your_email@example.com"
+          }
+        }
+        ```
+
+   6. **Additional Testing:**
+
+      - Continue to test other endpoints like creating notes, updating user details, etc., by following the same procedure: set the correct method, URL, headers, and body for each request.
 
 ## Dependencies
 
