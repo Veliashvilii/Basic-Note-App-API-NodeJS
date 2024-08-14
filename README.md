@@ -172,7 +172,7 @@ project-root/
 
       - Open Postman and create a new request for the desired endpoint. 
 
-      - **Example:** To test the login endpoint, create a new `POST` request to `http://localhost:5000/auth/login` and add a JSON body:
+      - **Example:** To test the login endpoint, create a new `POST` request to `http://localhost:PORT/auth/login` and add a JSON body:
 
         ```json
         {
